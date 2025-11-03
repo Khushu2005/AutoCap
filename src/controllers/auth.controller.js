@@ -29,11 +29,8 @@ async function registerController(req,res) {
     res.status(201).json({
         message:"User registered successfully",
         user:user
-       
-        
-    })
-     
     
+    })   
 }
 
 async function loginController(req,res) {
